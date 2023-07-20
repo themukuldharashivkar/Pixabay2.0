@@ -59,12 +59,14 @@ export default defineType({
       type: 'reference',
       to: {type: 'users'},
     }),
+
     defineField({
       name: 'comments',
       title: 'Comments',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'comments'}]}],
     }),
+
     defineField({
       name: 'collections',
       title: 'Collections',
