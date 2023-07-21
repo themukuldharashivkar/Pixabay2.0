@@ -172,7 +172,7 @@ const FeedDetail = () => {
         </div>
       </div>
 
-      <div className=" w-full px-12 xl:px-32 flex flex-col items-start justify-start">
+      <div className=" w-full px-8 xl:px-32 flex flex-col items-start justify-start">
         <p className="text-lg font-semibold text-primary">Related Post</p>
 
         <div className="w-full items-center justify-center flex-wrap gap-3">

@@ -16,7 +16,7 @@ const App = () => {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 6000);
     firebaseAuth.onAuthStateChanged((result) => {
       if (result) {
         console.log("User", result?.providerData[0]);

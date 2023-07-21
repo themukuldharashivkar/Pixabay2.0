@@ -164,7 +164,7 @@ const CreatePost = () => {
   };
 
   return (
-    <div className=" w-full h-auto flex items-center justify-start flex-col gap-4">
+    <div className=" w-full h-auto flex items-center justify-start flex-col gap-2 md:gap-4">
       {/* alert notification */}
       {alert && (
         <div className="w-full px-4 py-3 rounded-md bg-red-100 shadow-inner  flex items-center justify-center">

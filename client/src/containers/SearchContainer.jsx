@@ -20,7 +20,7 @@ const SearchContainer = () => {
   }, [searchTerm]);
   return (
     <div className="w-screen h-auto flex flex-col items-center justify-center relative">
-      <div className="w-full h-340 relative">
+      <div className="w-full h-48 md:h-56 relative">
         <img
           src={NewPostBg}
           alt="Banner"

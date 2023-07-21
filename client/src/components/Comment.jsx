@@ -39,7 +39,8 @@ const Comment = ({ feed, user, setFeed }) => {
       <p className="text-lg text-primary font-semibold">Comments</p>
       <div className="w-full flex gap-3 items-center justify-center">
         <img
-          src="https://cdn.pixabay.com/photo/2017/10/04/07/43/autumn-2815427_960_720.jpg"
+          // src="https://cdn.pixabay.com/photo/2017/10/04/07/43/autumn-2815427_960_720.jpg"
+          src={user?.photoURL}
           className="w-16 h-16 rounded-full object-cover shadow-md"
           alt=""
         />

@@ -20,12 +20,12 @@ const Banner = () => {
         <h2 className="text-2xl text-center md:text-4xl font-extrabold text-white tracking-wider">
           Stunning free images & royalty free stock
         </h2>
-        <p className="text-white text-center">
+        <p className="text-white text-center text-sm md:text-lg">
           Over 2.8 million+ high quality stock images, videos and music shared
           by our talented community.
         </p>
 
-        <div className="w-2/3 md:w-1/2 gap-4 px-4 py-3 rounded-full bg-white flex items-center justify-between">
+        <div className="w-3/4 md:w-1/2 gap-4 px-4 py-3 rounded-full bg-white flex items-center justify-between">
           <FaSearch size={16} color="#656F79" />
           <input
             type="text"

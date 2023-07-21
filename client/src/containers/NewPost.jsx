@@ -17,7 +17,7 @@ const NewPost = () => {
 
       {/* filter section */}
 
-      <section className="flex flex-col w-full h-auto items-center justify-start px-6 xl:px-16 py-12">
+      <section className="flex flex-col w-full h-auto items-center justify-start px-6 xl:px-16 py-6">
         <div className="w-full h-auto flex items-center justify-start overflow-x-scroll">
           <ul className="flex items-center gap-6 justify-center">
             {subMenu &&

@@ -139,7 +139,7 @@ export const filerMenu = [
     icon: FaPaintBrush,
   },
   { id: uuidv4(), to: "/search/videos", label: "videos", icon: FaVideo },
-  { id: uuidv4(), to: "/search/gifs", label: "Gifs", icon: FaFire },
+  // { id: uuidv4(), to: "/search/gifs", label: "Gifs", icon: FaFire },
 ];
 
 export const searchQuery = (searchTerm) => {
