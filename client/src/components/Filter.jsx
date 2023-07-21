@@ -21,7 +21,7 @@ export const FilterButtons = ({ label, icon, to }) => {
         <Icon
           className={`${active ? "text-emerald-400" : "text-primary"} text-sm md:text-lg`}
         />
-        <p className="text-base text-primary">{label}</p>
+        <p className="text-sm md:text-base text-primary">{label}</p>
       </div>
     </NavLink>
   );

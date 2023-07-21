@@ -40,7 +40,8 @@ const Comment = ({ feed, user, setFeed }) => {
       <div className="w-full flex gap-3 items-center justify-center">
         <img
           // src="https://cdn.pixabay.com/photo/2017/10/04/07/43/autumn-2815427_960_720.jpg"
-          src={user?.photoURL}
+          // src={user?.photoURL}
+          src={`${user ? user?.photoURL : 'https://cdn.pixabay.com/photo/2017/10/04/07/43/autumn-2815427_960_720.jpg'}`}
           className="w-16 h-16 rounded-full object-cover shadow-md"
           alt=""
         />
@@ -67,7 +68,7 @@ const Comment = ({ feed, user, setFeed }) => {
                 >
                   <img
                     src={msg?.users?.photoURL}
-                    className="w-16 h-16 rounded-full object-cover shadow-md"
+                    className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover shadow-md"
                     alt=""
                   />
                   <div className="flex w-full flex-col items-start justify-start gap-2">

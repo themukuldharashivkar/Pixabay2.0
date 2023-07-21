@@ -72,7 +72,7 @@ const Header = () => {
       <div className="flex items-center justify-center gap-4">
         {user ? (
           <>
-            <div className="relative cursor-pointer">
+            <div className="relative cursor-pointer flex items-center justify-center gap-2">
               <img
                 src={user?.photoURL}
                 className="rounded-full w-10 h-10 object-cover"
@@ -80,6 +80,7 @@ const Header = () => {
                 referrerPolicy="no-referrer"
                 onClick={() => setIsMenu(!isMenu)}
               />
+              <p className={`text-lg ${color ? 'text-primary' : 'text-white'} hidden md:block`}>{user?.displayName}</p>
 
               {/* user menu options */}
               {isMenu && (
